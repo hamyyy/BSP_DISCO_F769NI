@@ -1,8 +1,12 @@
 {
     "name": "BSP_DISCO_F758NI",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "build": {
         "includeDir": ".",
+        "flags": [
+            "-I extra_inc",
+            "-I Drivers/BSP/STM32F769I-Discovery"
+        ],
         "srcDir": "."
     }
 }
